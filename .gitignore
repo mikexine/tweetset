@@ -47,3 +47,4 @@ bower_components
 tweetset/tweetset/settings/passwords.py
 tweetset/tweetset/settings/base.py
 
+env/
