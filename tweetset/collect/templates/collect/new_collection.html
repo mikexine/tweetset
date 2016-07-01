@@ -10,11 +10,56 @@
   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
   {% csrf_token %}
     {% include "collect/include/form_field.html" with field=form.name %}
-    {% include "collect/include/form_field.html" with field=form.track %}    
-    {% include "collect/include/form_field.html" with field=form.follow %}
-    {% include "collect/include/form_field.html" with field=form.locations %}
+  </div>
+  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+  <br />
+    <p>
+      Select a label for your collection of tweets.
+    </p>
   </div>
 </div>
+
+<div class="row">
+  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+  {% csrf_token %}
+    {% include "collect/include/form_field.html" with field=form.track %}
+  </div>
+  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+    <br />
+    <p>
+      A comma separated list of keywords or phrases to track. Phrases of keywords are specified by a comma-separated list. More information on Twitter's website; <a href="https://dev.twitter.com/docs/streaming-apis/parameters#track" target="_blank">click here</a>.
+    </p>
+
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+  {% csrf_token %}   
+    {% include "collect/include/form_field.html" with field=form.follow %}
+  </div>
+  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+  <br />
+    <p>
+      A comma separated list of user IDs, indicating the users to return statuses for in the stream. More information on Twitter's website; <a href="https://dev.twitter.com/docs/streaming-apis/parameters#follow" target="_blank">click here</a>.
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+  {% csrf_token %}
+    {% include "collect/include/form_field.html" with field=form.locations %}
+  </div>
+  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+  <br />
+    <p>
+      A comma-separated list of longitude,latitude pairs specifying a set of bounding boxes to filter Tweets by. On geolocated Tweets falling within the requested bounding boxes will be included—unlike the Search API, the user's location field is not used to filter tweets. Each bounding box should be specified as a pair of longitude and latitude pairs, with the southwest corner of the bounding box coming first. For example: "-122.75,36.8,-121.75,37.8" will track all tweets from San Francisco. NOTE: Bounding boxes do not act as filters for other filter parameters. More information on Twitter's website; <a href="https://dev.twitter.com/docs/streaming-apis/parameters#locations" target="_blank">click here</a>.
+    </p>
+  </div>
+</div>
+</form>
+
 
 <div class="row">
   <div class="col-lg-6">
