@@ -2,7 +2,7 @@ from .base import *
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['tweetset.com','www.tweetset.com']
+# ALLOWED_HOSTS = ['tweetset.com', 'www.tweetset.com']
 
 DATABASES = {
     'default': {
@@ -15,6 +15,6 @@ DATABASES = {
     }
 }
 
-STATIC_URL = 'http://static.tweetset.com/'
+# STATIC_URL = 'http://static.tweetset.com/'
 
-PYTHON_EXECUTABLE = '/srv/django-envs/tweetset/bin/python'
+# PYTHON_EXECUTABLE = '/srv/django-envs/tweetset/bin/python'

@@ -84,8 +84,8 @@ class Collection(models.Model):
 
 class Tweet(models.Model):
     data = JSONField()
-    twitter_id = models.CharField(max_length=100,db_index=True)
-    collection = models.ForeignKey(Collection,related_name="tweets")
+    twitter_id = models.CharField(max_length=100, db_index=True)
+    collection = models.ForeignKey(Collection, related_name="tweets")
 
     def parse_datetime(self):
         return datetime(*(parsedate(self.data['created_at'])[:6]))        

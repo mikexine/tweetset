@@ -6,7 +6,7 @@ APP_DIR = os.path.join(os.path.dirname(os.path.realpath(__file__)), '..')
 PUBLIC_DIR = os.path.join(PROJECT_DIR, '..', 'public')
 
 ADMINS = (
-    # ('Michele Colombo', 'mikexine@gmail.com'),
+    # ('YOUR NAME', 'YOUR EMAIL'),
 )
 
 MANAGERS = ADMINS
@@ -170,8 +170,8 @@ SOCIAL_AUTH_ADMIN_USER_SEARCH_FIELDS = ['username', 'first_name', 'email']
 
 SOCIAL_AUTH_LOGIN_ERROR_URL = '/'
 
-SOCIAL_AUTH_TWITTER_KEY = 'Sio0mYvHyasKKrOxXd3YRaUef'
-SOCIAL_AUTH_TWITTER_SECRET = 'lY1T5YJxgikJuLSYpEOvb3ix8uOVZorEJ5AEvbUycFFUUfM5Ey'
+SOCIAL_AUTH_TWITTER_KEY = 'TWITTER  -  KEY  -  HERE'
+SOCIAL_AUTH_TWITTER_SECRET = 'TWITTER  -  SECRET  -  HERE'
 
 from django.contrib.messages import constants as message_constants
 MESSAGE_TAGS = {message_constants.DEBUG: 'debug',

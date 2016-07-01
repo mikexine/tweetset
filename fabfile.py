@@ -26,4 +26,3 @@ def deploy():
 
                 puts(magenta("[Touching wsgi.py]"))
                 run('touch /srv/django-projects/tweetset/tweetset/tweetset/wsgi.py')
-
