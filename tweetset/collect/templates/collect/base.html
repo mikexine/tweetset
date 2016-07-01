@@ -6,6 +6,8 @@
     <!-- Bootstrap -->
     <link rel="shortcut icon" href="{{STATIC_URL}}img/favicon.ico">
     <link href="{{STATIC_URL}}css/app.css" rel="stylesheet">
+    <link href="{{STATIC_URL}}css/rewrite.css" rel="stylesheet">
+
 
     <link rel="apple-touch-icon" href="{{STATIC_URL}}img/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="57x57" href="{{STATIC_URL}}img/apple-touch-icon-57x57.png">
@@ -29,18 +31,7 @@
     <script src="{{STATIC_URL}}js/bootstrap.min.js"></script>
     <script src="{{STATIC_URL}}js/script.js"></script>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    {% if not debug %}
-      <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-        ga('create', 'UA-2921908-16', 'auto');
-        ga('send', 'pageview');
-
-      </script>
-    {% endif %}
   </head>
   <body class="padded">
 
@@ -65,18 +56,23 @@
       </ul>
       <ul class="nav navbar-nav navbar-right">
         {% block subnavigation %}{% endblock %}
+
+        <li><a href="{% url 'contacts' %}"><span class="glyphicon glyphicon-info-sign"></span> Contacts</a></li>
+
         {% if user.is_authenticated %}
         <li class="{% block dashboard-active %}{% endblock %}"><a href="{% url 'dashboard' %}">Dashboard</a></li>
         <li class="{% block profile-active %}{% endblock %} dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>
  {{user}} <b class="caret"></b></a>
           <ul class="dropdown-menu">
+                      
             <li><a href="{% url 'logout' %}?next_page={% url 'index' %}"><span class="glyphicon glyphicon-off"></span> Log out</a></li>
           </ul>
         </li>
         {% else %}
         <li><a href="{% url 'social:begin' backend='twitter' %}"><i class="fa fa-twitter"></i> Log in with Twitter</a></li>
         {% endif %}
+
       </ul>
     </div><!-- /.navbar-collapse -->
     {% endblock %}
@@ -100,6 +96,17 @@
 
 
     </div>
+    <footer class="footer">
+      <div class="container">
+          <div class="col-sm-6 text-center">
 
+      <p class="text-muted small">Forked from <a href="https://github.com/janezkranjc/tweetset" target="_blank">TweetSet</a>, made by <a href="http://janez.me" target="_blank">Janez Kranjc</a>.</p>
+      </div>
+
+          <div class="col-sm-6 text-center">
+ <p class="text-muted small">Mantained by <a href="http://mikexine.com/" target="_blank">Michele</a>; you can <a href="https://github.com/mikexine/tweetset" target="_blank">contribute</a> too!</p>
+      </div>
+    </footer>
   </body>
+
 </html>

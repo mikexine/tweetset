@@ -141,5 +141,9 @@ def index(request):
     return render(request, 'collect/index.html')
 
 
+def contacts(request):
+    return render(request, 'collect/contacts.html')
+
+
 def collect_login(request, *args, **kwargs):
     return login_view(request, *args, **kwargs)

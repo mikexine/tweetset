@@ -3,6 +3,7 @@ from django.conf import settings
 
 urlpatterns = patterns('',
     url(r'^$', 'collect.views.index', name='index'),
+    url(r'^contacts/$', 'collect.views.contacts', name='contacts'),
     url(r'^dashboard/$', 'collect.views.dashboard', name='dashboard'),
 
     url(r'^dashboard/collection/new/', 'collect.views.new_collection', name='new collection'),
