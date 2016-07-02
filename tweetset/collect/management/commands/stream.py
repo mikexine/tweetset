@@ -39,7 +39,7 @@ class Command(BaseCommand):
                 try:
                     print "123123412341241234"
                     print status.id
-                    data = json.dumps(status._json)
+                    data = status._json
                     print data
                     t, created = Tweet.objects.get_or_create(collection=collection,twitter_id=str(status.id))
                     t.data = data
