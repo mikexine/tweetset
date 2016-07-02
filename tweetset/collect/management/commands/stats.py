@@ -14,7 +14,6 @@ from collections import defaultdict
 from nltk.corpus import stopwords
 import string
 import vincent
-import pandas
 import arrow
 from time import sleep
 

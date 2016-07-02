@@ -50,3 +50,4 @@ tweetset/tweetset/settings/base.py
 env/*
 tweetset/manage.py
 .DS_Store
+*.json

@@ -7,7 +7,6 @@ meld3==1.0.2
 nltk==3.2.1
 numpy==1.11.1
 oauthlib==1.1.2
-pandas==0.18.1
 psycopg2==2.6.1
 PyJWT==1.4.0
 python-dateutil==2.5.3
