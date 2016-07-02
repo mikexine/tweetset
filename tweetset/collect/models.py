@@ -98,33 +98,30 @@ class Collection(models.Model):
 
 
     def mstats_running(self):
-        s = xmlrpclib.ServerProxy(settings.SUPERVISOR_URI)
-        p_info = s.supervisor.getAllProcessInfo()
-        high = 0
-        pos = 0
-        print '\n'
-        for p in range(len(p_info)):
-            print p
-            print p_info[p]['name'][-10:]
-            if int(p_info[p]['name'][-10:]) > high:
-                high = int(p_info[p]['name'][-10:])
+        try:
+            s = xmlrpclib.ServerProxy(settings.SUPERVISOR_URI)
+            p_info = s.supervisor.getAllProcessInfo()
+            high = 0
+            pos = 0
+            print '\n'
+            for p in range(len(p_info)):
+                print p
                 print p_info[p]['name'][-10:]
-                pos = p
-        # print 'high ',
-        # print high
-        # print '\n'
-        # print p_info[p]['name']
-        # print p_info[p]['statename']
+                if int(p_info[p]['name'][-10:]) > high:
+                    high = int(p_info[p]['name'][-10:])
+                    print p_info[p]['name'][-10:]
+                    pos = p
+            # print 'high ',
+            # print high
+            # print '\n'
+            # print p_info[p]['name']
+            # print p_info[p]['statename']
 
-        print '\n\n'
-        start = 'stats_collection'
-        end = '_1467502512'
-        print 'coll ------> ',
-        print p_info[pos]['name'][16:18]
-
-        if p_info[pos]['statename']=='RUNNING' and p_info[pos]['name'][16:18] == str(self.pk):
-            return True
-        else:
+            if p_info[pos]['statename']=='RUNNING' and p_info[pos]['name'][16:18] == str(self.pk):
+                return True
+            else:
+                return False
+        except:
             return False
 
 
