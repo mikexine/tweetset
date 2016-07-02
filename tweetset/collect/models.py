@@ -88,7 +88,7 @@ class Tweet(models.Model):
     collection = models.ForeignKey(Collection, related_name="tweets")
 
     def parse_datetime(self):
-        return datetime(*(parsedate(self.data['created_at'])[:6]))        
+        return datetime.datetime.fromtimestamp(int(self.data['timestamp_ms'])).strftime('%Y-%m-%d %H:%M:%S')
 
     def __unicode__(self):
         return unicode(self.twitter_id)
