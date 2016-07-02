@@ -79,6 +79,25 @@ class Collection(models.Model):
         self.stop()
         super(Collection, self).delete()
 
+    def mstats(self):
+        s = xmlrpclib.ServerProxy(settings.SUPERVISOR_URI)
+        if not self.exists():
+            try:
+                s.twiddler.addProgramToGroup('tweetset', 'stats_collection'+str(self.pk), 
+                {'command':settings.PYTHON_EXECUTABLE+' '+os.path.join(settings.PROJECT_DIR,'manage.py')+' stats '+str(self.pk),
+                'autostart':'false', 
+                'autorestart':'false', 
+                'startsecs':'3'})
+            except:
+                return False
+        if not self.is_running():
+            try:
+                s.supervisor.startProcess('tweetset:stats_collection'+str(self.pk))
+            except:
+                return False
+            return True
+        return True
+
     def __unicode__(self):
         return unicode(self.name)
 

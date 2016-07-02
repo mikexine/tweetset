@@ -65,6 +65,33 @@ def download_json(request, collection_id):
 
 
 @login_required
+def map(request, collection_id):
+    c = get_object_or_404(Collection, pk=collection_id, user=request.user)
+    return render(request, "collect/stats/map.html", {
+        'collection': c,
+        'collection_id': collection_id
+        })
+
+
+@login_required
+def time_chart(request, collection_id):
+    c = get_object_or_404(Collection, pk=collection_id, user=request.user)
+    return render(request, "collect/stats/time_chart.html", {
+        'collection': c,
+        'collection_id': collection_id
+        })
+
+
+@login_required
+def frequencies(request, collection_id):
+    c = get_object_or_404(Collection, pk=collection_id, user=request.user)
+    return render(request, "collect/stats/frequencies.html", {
+        'collection': c,
+        'collection_id': collection_id
+        })
+
+
+@login_required
 def tweets(request, collection_id):
     c = get_object_or_404(Collection, pk=collection_id, user=request.user)
     page = request.GET.get('page', 1)
@@ -120,6 +147,16 @@ def start_collection(request, collection_id):
         messages.success(request, "Collection successfully started!")
     else:
         messages.error(request, "Collection could not be started.")
+    return redirect('dashboard')
+
+
+@login_required
+def make_stats(request, collection_id):
+    c = get_object_or_404(Collection, pk=collection_id, user=request.user)
+    if c.mstats():
+        messages.success(request, "Stats will be available soon!")
+    else:
+        messages.error(request, "Err.. Stats could not be started.")
     return redirect('dashboard')
 
 

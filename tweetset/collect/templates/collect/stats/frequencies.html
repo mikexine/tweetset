@@ -1,0 +1,42 @@
+{% extends 'collect/base.html' %} {% block content %}
+  <div class="row">
+    <div class="col-sm-12 text-center">
+<h2>Frequencies {{collection_id}} - {{collection.name}}</h2>
+</div>
+</div>
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1 text-center">
+    <h3>Most frequent hashtags</h3>
+    <div id="vis_1"></div>
+    <hr>
+    <h3>Most frequent mentions</h3>
+    <div id="vis_2"></div>
+    <hr>
+    <h3>Most frequent terms</h3>
+    <div id="vis_3"></div>
+<script type="text/javascript">
+// parse a spec and create a visualization view
+function parse(spec) {
+  vg.parse.spec(spec, function(chart) { chart({el:"#vis_1"}).update(); });
+}
+parse("{{STATIC_URL}}json/{{collection_id}}_freq_hashtags.json");
+</script>
+
+<script type="text/javascript">
+// parse a spec and create a visualization view
+function parse(spec) {
+  vg.parse.spec(spec, function(chart) { chart({el:"#vis_2"}).update(); });
+}
+parse("{{STATIC_URL}}json/{{collection_id}}_freq_mentions.json");
+</script>
+
+<script type="text/javascript">
+// parse a spec and create a visualization view
+function parse(spec) {
+  vg.parse.spec(spec, function(chart) { chart({el:"#vis_3"}).update(); });
+}
+parse("{{STATIC_URL}}json/{{collection_id}}_freq_terms.json");
+</script>
+</div>
+</div>
+{% endblock %}

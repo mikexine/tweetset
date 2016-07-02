@@ -1,0 +1,2525 @@
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    17.98333333, 
+                    42.71666667
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "It's the little textures and quirks that define a memory #trsteno #trstenoarboretum #beautiful\u2026 https://t.co/aJSfpnGzml", 
+                "created_at": "Sat Jul 02 16:44:09 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -80.32350409, 
+                    32.48457463
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Toes in the sand... @ Edisto Island Beach https://t.co/fcGzzUhw34", 
+                "created_at": "Sat Jul 02 16:44:13 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -53.52763377, 
+                    -29.65404473
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "\"...We keep this love in this photograph\nWe made these memories for ourselves\nWhere our eyes are\u2026 https://t.co/8BN0DTsiz8", 
+                "created_at": "Sat Jul 02 16:44:20 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -43.36954647, 
+                    -22.84136441
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "I'm at Cine Ara\u00fajo - @cinemasaraujo for Finding Dory in Disney Digital 3D in Rio de Janeiro, RJ https://t.co/UoeiU0klFR", 
+                "created_at": "Sat Jul 02 16:44:27 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    108.31996, 
+                    -6.37011
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "\ud83d\udcf7\ud83d\udc51 @ SMAN 2 Indramayu https://t.co/fhmTxJekDa", 
+                "created_at": "Sat Jul 02 16:44:33 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -43.3262373, 
+                    -22.8577753
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Tenho que i l\u00e1 na mayara", 
+                "created_at": "Sat Jul 02 16:44:38 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -92.5253639, 
+                    44.0557303
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Interested in a #Engineering #job near #Rochester, MN? This could be a great fit: https://t.co/0F0NImlSAP #Hiring #CareerArc", 
+                "created_at": "Sat Jul 02 16:44:40 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -106.3974205, 
+                    31.7890897
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Can you recommend anyone for this #Hospitality #job? https://t.co/nufAhySFbe #ElPaso, TX #Hiring", 
+                "created_at": "Sat Jul 02 16:44:40 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -76.51841669, 
+                    38.83612068
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Challenging the birthday boy to a water balloon fight. #dadbirthday @ Shadyside, MD https://t.co/L1tEck8xcV", 
+                "created_at": "Sat Jul 02 16:44:44 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -91.37163154, 
+                    46.50719214
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "360 view from my morning run. Getting my #bliss on! #soundsofnature #getoutside #wisconsin\u2026 https://t.co/qfxIb1u6Il", 
+                "created_at": "Sat Jul 02 16:44:46 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -80.1917902, 
+                    25.7616798
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Can you recommend anyone for this #CustomerService #job? https://t.co/W5DFK9cLEg #interpreter #bilingual #Miami, FL #Hiring", 
+                "created_at": "Sat Jul 02 16:44:51 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    110.29933, 
+                    -7.13788
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Matursuwun guyonane, waktune sisa2 bocah XII\u2026 (w/ Danik Kristiyanti, Aristu, &amp; 6 others at Rumah Danul) [pic] \u2014 https://t.co/YC0T6kMKS7", 
+                "created_at": "Sat Jul 02 16:44:52 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    13.4126999, 
+                    52.52128
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "\u3002.:\u2606*:\uff65'(*\u2312\u2015\u2312*)))/\u2661 @ Alexanderplatz Berlin https://t.co/vlhHpt1vWk", 
+                "created_at": "Sat Jul 02 16:45:03 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -66.83944444, 
+                    10.41333333
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "E M Oripoto 12:45 Temp 24,3\u00b0C Lluv 0,0mm Hum 79% Pres 1014,26mb V 2km/h S Raf 8km/h IndC 24,3\u00b0C Rat 0,0mm/h UV 6,1", 
+                "created_at": "Sat Jul 02 16:45:16 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -80.2241, 
+                    25.7877
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "\ud83d\ude0d\ud83d\ude0d\ud83d\ude0d\ud83d\udc4f\ud83c\udffb\ud83c\udf34\ud83c\udf34\ud83c\udf34 simplemente Miami! #paradise #miamibeach @ Miami, Florida https://t.co/xs0gKq1zLg", 
+                "created_at": "Sat Jul 02 16:45:16 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -4.1270746, 
+                    51.20913148
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "All about the Party food \ud83d\ude01\ud83d\ude01\ud83d\ude0b davidphillips1991 @ PlayHut Tunnels Beach. https://t.co/wVynVmtgvp", 
+                "created_at": "Sat Jul 02 16:45:17 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    48.03361493, 
+                    29.27018137
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "I'm at Starbucks https://t.co/t9bg13eAqX", 
+                "created_at": "Sat Jul 02 16:45:19 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -99.14055556, 
+                    19.43388889
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Just posted a photo @ Torre Latinoamericana https://t.co/WC4i9XGiwY", 
+                "created_at": "Sat Jul 02 16:45:21 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    121.08632705, 
+                    14.31961504
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "KD &amp; Mcrey \u2764 @ Jubilation Home Village East https://t.co/b6QiwJn4Oc", 
+                "created_at": "Sat Jul 02 16:45:37 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    101.62530724, 
+                    3.08781644
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Kenyangnya \ud83d\ude0c (@ Nasik lemak panas 222) https://t.co/3A0QuWLVDS", 
+                "created_at": "Sat Jul 02 16:45:40 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    32.8255036, 
+                    39.92145674
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Her son bir ba\u015flang\u0131\u00e7t\u0131r m\u0131? Yoksa sadece son i\u015fte abartmaya gerek yok mudur??\ud83d\ude02 (@ Papillion Cafe) https://t.co/oSe6eEaSi4", 
+                "created_at": "Sat Jul 02 16:45:41 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    27.65007633, 
+                    40.10856475
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "I'm at Lezzet lokantasi https://t.co/bHO0FhSshk", 
+                "created_at": "Sat Jul 02 16:45:43 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -83.0025, 
+                    39.9604
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "The fireworks were BOOMin @ Supreme Court of Ohio https://t.co/LB7q8h7IgJ", 
+                "created_at": "Sat Jul 02 16:45:51 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -118.392282, 
+                    33.83884
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "I'm at Redondo Coffee Shop &amp; Bait https://t.co/A6HGudEBhu", 
+                "created_at": "Sat Jul 02 16:45:54 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    101.70413017, 
+                    3.0564393
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "I'm at McDonald's in Kuala Lumpur, WP Kuala Lumpur https://t.co/3FLLiQ7PRH", 
+                "created_at": "Sat Jul 02 16:45:55 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -8.50217342, 
+                    40.87675795
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "I look cute, as a dog \ud83d\ude0d #dog #snap @ Freguesia da Vila de Cucuj\u00e3es https://t.co/OwHiOfqzFH", 
+                "created_at": "Sat Jul 02 16:45:56 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -79.1698543, 
+                    -0.2525698
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Visitanos en la Calle Ibarra 702 y Babahoyo o has tu pedido a nuestro Whatsapp 0959032319\nSanto\u2026 https://t.co/RZd2s0usAK", 
+                "created_at": "Sat Jul 02 16:46:09 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -43.35888, 
+                    -22.80762
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Minha agenda hoje \u00e9 com elas amo amo amo \n#n\u00e3otemdinheiroquepague #amomuitotudoisso\u2026 https://t.co/9TKcRjJFDh", 
+                "created_at": "Sat Jul 02 16:46:17 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    37.616848, 
+                    55.75596929
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "I'm at \u041f\u0430\u043c\u044f\u0442\u043d\u0438\u043a \u043c\u0430\u0440\u0448\u0430\u043b\u0443 \u0416\u0443\u043a\u043e\u0432\u0443 in \u041c\u043e\u0441\u043a\u0432\u0430 https://t.co/JRFTlasbXY https://t.co/1AEfLhepVL", 
+                "created_at": "Sat Jul 02 16:46:26 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -77.06254, 
+                    38.9046
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Had to re-up!!! #TeaLover #spiceandteaexchange @ The Spice &amp; Tea Exchange https://t.co/wKijV1rJwL", 
+                "created_at": "Sat Jul 02 16:46:28 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -83.2449042, 
+                    33.0987229
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "SONIC Drive-In: Assistant Manager (#Milledgeville, GA) https://t.co/jcUBmNt7V0 #Hospitality #SONIC #Job #Jobs #Hiring #CareerArc", 
+                "created_at": "Sat Jul 02 16:46:35 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -118.11397076, 
+                    33.75995436
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "I'm at AMC Marina Pacifica 12 - @amctheatres for The Purge: Election Year in Long Beach, CA https://t.co/GTmGxgFWH4", 
+                "created_at": "Sat Jul 02 16:46:35 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    101.00444026, 
+                    13.42560142
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "\ud83c\udf1a\ud83d\udc98 (@ Major Cineplex in Mueang Chon Buri, Chon Buri) https://t.co/SjhXGLl9oX", 
+                "created_at": "Sat Jul 02 16:46:39 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -76.21890368, 
+                    43.1049277
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Onondaga lake parkway\u270c\ud83c\udffc\ufe0f #biking #nofilter #lake #syracuse #onondagalake #sunnyday @ Onodaga\u2026 https://t.co/uk0ABe4FJC", 
+                "created_at": "Sat Jul 02 16:47:04 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -121.9877444, 
+                    38.3565773
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "This #Retail #job might be a great fit for you: Seasonal Temporary Store Associate - Merrell - https://t.co/nb7Lq8X7Ay #Vacaville, CA", 
+                "created_at": "Sat Jul 02 16:47:15 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    108.49924, 
+                    -7.40844
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "At Kantor Samsat kota Banjar \u2014 https://t.co/EJ4dQ98QKj", 
+                "created_at": "Sat Jul 02 16:47:15 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    27.22400799, 
+                    38.46869142
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "I'm at Tarlaba\u015f\u0131 https://t.co/7KRWxurGJg", 
+                "created_at": "Sat Jul 02 16:47:16 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -3.61670734, 
+                    40.46723628
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Camino de los IIFA Awards. Bollywood India.  On MY way to the IIFA 2016 Awards from India.\u2026 https://t.co/VWg5TtZ2bX", 
+                "created_at": "Sat Jul 02 16:47:26 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -68.3975428, 
+                    18.66860944
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Conoce la hermosa playa de Macao en Punta Cana con nosotros #VeranoSocialToursRD\u2026 https://t.co/mNouP1W2Xr", 
+                "created_at": "Sat Jul 02 16:47:30 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    2.3375, 
+                    48.85833333
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "#doggles \n#paris #dogonscooter #castorsvolants #picoftheday @ Pont\u2026 https://t.co/qy096cuj0a", 
+                "created_at": "Sat Jul 02 16:47:32 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -77.9927651, 
+                    35.3848841
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "This #Retail #job might be a great fit for you: Manager Trainee-Retail Sales - https://t.co/FvyhROT1Wh #Goldsboro, NC #Hiring #CareerArc", 
+                "created_at": "Sat Jul 02 16:47:36 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    101.40642, 
+                    0.47416
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Best squad... (with Hasina, septya, and 11 others at Hot Plate House) [pic] \u2014 https://t.co/3LrWi2a8p6", 
+                "created_at": "Sat Jul 02 16:47:37 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -76.60295, 
+                    39.28357
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Can't deny the beauty of this place. Hope to bring Brian here someday for the @fightblindness\u2026 https://t.co/q2ZbtPa5be", 
+                "created_at": "Sat Jul 02 16:47:40 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -75.12910151, 
+                    40.56146139
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Ready to ring some rocks. @ Ringing Rocks County Park https://t.co/BdEtWsHT1i", 
+                "created_at": "Sat Jul 02 16:47:40 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -69.94376, 
+                    18.46192
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Bichon Malt\u00e9s Toy hembra disponible para entrega  vacunas al d\u00eda  y verm\u00edfugos\u2026 https://t.co/MSCfiIiNzz", 
+                "created_at": "Sat Jul 02 16:47:44 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.34120397, 
+                    47.60857236
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Great, tasty, and inexpensive breakfast. (@ Sound View Caf\u00e9 in Seattle, WA) https://t.co/spIsbhQ9vv", 
+                "created_at": "Sat Jul 02 16:47:46 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    27.06547623, 
+                    40.4160884
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Sonunda \ud83d\udc83\u263a (@ Kemer Sahil w/ @drmlii) https://t.co/f78QVWSU6r", 
+                "created_at": "Sat Jul 02 16:47:50 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -118.243, 
+                    34.0522
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "I_hate_that_sadness_in_your_eyes.\nBut_Angie.\n.\n.\n.\n.\n.\n.\n.\n.\n#losangeles #westcoast\u2026 https://t.co/Nq9KtNZy5w", 
+                "created_at": "Sat Jul 02 16:47:51 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    121.075, 
+                    14.5267
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "diba   @katdiwata    hahahahaa @ Taguig, Philippines https://t.co/8YFFl8mKoY", 
+                "created_at": "Sat Jul 02 16:47:56 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    24.56710461, 
+                    48.29758913
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "\u0410 \u0432\u0438 \u0442\u0430\u043a \u0440\u043e\u0431\u0438\u043b\u0438? \u042f\u043a\u0449\u043e \u043d\u0435 \u0440\u043e\u0431\u0438\u043b\u0438, \u0442\u043e \u0437\u043d\u0430\u0454\u0442\u0435 \u0432\u0456\u0434 \u0447\u043e\u0433\u043e \u0442\u043e? \ud83d\ude0b\u261d\ud83c\udfff\ufe0f @ \u0413\u043e\u0440\u0430 \u0413\u043e\u0432\u0435\u0440\u043b\u0430, 2061\u043c. \u0423\u043a\u0440\u0430\u0457\u043d\u0430,\u2026 https://t.co/YJqicQnWCj", 
+                "created_at": "Sat Jul 02 16:48:07 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -66.80929569, 
+                    10.48420311
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "#dayoff #caracas #like #like4like #likeforlike #likeforfollow #cool\u2026 https://t.co/sIkUBmAweJ", 
+                "created_at": "Sat Jul 02 16:48:11 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    101.7892313, 
+                    2.96615225
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Ramainya orang ya tuhann (@ Uptown Jalan Reko in Kajang, Selangor) https://t.co/zTWKaFIWE6", 
+                "created_at": "Sat Jul 02 16:48:16 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -80.1341, 
+                    25.813
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "White or wheat? @charlottesmckee \nStylist biancacoletti h&amp;m @caromo1987 \nProduced by\u2026 https://t.co/8HuzF1uk59", 
+                "created_at": "Sat Jul 02 16:48:16 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -79.7461633, 
+                    34.1534917
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Want to work at Compass Group USA? We're #hiring in #FlorenceMyrtleBeach, SC! Click for details: https://t.co/5Zta57qNbf #CompassCareers", 
+                "created_at": "Sat Jul 02 16:48:17 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.084265, 
+                    51.799237
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "I was out cycling 18.71 miles with #Endomondo #endorphins https://t.co/YYf26njBfW", 
+                "created_at": "Sat Jul 02 16:48:27 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    25.93506008, 
+                    48.29245559
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "\u042f\u043d\u0447\u0456\u043a\u2764\ufe0f (@ \u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u0430 \u043f\u043b\u043e\u0449\u0430 in \u0427\u0435\u0440\u043d\u0456\u0432\u0446\u0456, \u0427\u0435\u0440\u043d\u0456\u0432\u0435\u0446\u044c\u043a\u0430 \u043e\u0431\u043b.) https://t.co/le6FHwZ1tZ https://t.co/fUlsttFZu0", 
+                "created_at": "Sat Jul 02 16:48:29 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -77.0947092, 
+                    38.984652
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "See our latest #Bethesda, MD #job and click to apply: Dishwasher - https://t.co/G9fzAH2P6z #Hospitality #Hiring #CareerArc", 
+                "created_at": "Sat Jul 02 16:48:48 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    37.80490771, 
+                    48.00507341
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "I'm at \u0401\u0436 in \u0414\u043e\u043d\u0435\u0446\u043a, \u0414\u043e\u043d\u0435\u0446\u043a\u0430\u044f \u043e\u0431\u043b. https://t.co/f4klYzDiuE", 
+                "created_at": "Sat Jul 02 16:48:50 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -46.66749573, 
+                    -23.56322479
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Evento @priskila_soares \ud83d\udeb4 aula de bike #iodice #livegreen @ Iodice Oscar Freire https://t.co/mGu4YN8OeO", 
+                "created_at": "Sat Jul 02 16:48:51 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -76.52761817, 
+                    3.45454293
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Just posted a video @ Vallamovil https://t.co/PL4ulJdho7", 
+                "created_at": "Sat Jul 02 16:48:58 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -97.1531167, 
+                    49.8708859
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "#Hospitality #Job alert: Shift Supervisor (CA) | Starbucks | 745 CORYDON AVENUE, #WINNIPEG, MB https://t.co/4ZDXYi7NRI #Veterans #Jobs", 
+                "created_at": "Sat Jul 02 16:48:59 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -115.251152, 
+                    36.0633363
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Beauty Advisor - Ulta Beauty: (#LasVegas, NV) https://t.co/cwgE9l8HVf #Cosmetology #Job #Jobs #Hiring #CareerArc", 
+                "created_at": "Sat Jul 02 16:48:59 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    101.77920166, 
+                    2.93916171
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "I'm at Seksyen 3 in Bangi, Selangor https://t.co/OAfBaZ6qKu", 
+                "created_at": "Sat Jul 02 16:49:02 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -43.9698438, 
+                    -19.9133278
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "@fin4m0rf1n4 daki a pouko kkk", 
+                "created_at": "Sat Jul 02 16:49:17 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    2.34341, 
+                    48.88148
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Je dessine au @hamacfestival ce soir @elephantmusique on stage #concert #music #live #drawing cc\u2026 https://t.co/ha6vYqJ8v9", 
+                "created_at": "Sat Jul 02 16:49:17 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -43.42112268, 
+                    -22.77181969
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "I'm at Resid\u00eancial Lari's \ud83c\udf80 in Mesquita, Rio de Janeiro https://t.co/YaRkLAG8gk", 
+                "created_at": "Sat Jul 02 16:49:19 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -86.27388664, 
+                    39.80689696
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "@iam_tomilade @agboladee @Omaakatugba Its A Lie He Has 12 Arsenal Has 13 League Title,Oya,Go To Ur Main Point,He Has UCL Arsenal Doesnt", 
+                "created_at": "Sat Jul 02 16:49:22 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -118.3854369, 
+                    34.0895596
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Cocktails for breakfast \ud83c\udf78\ud83d\ude1c #justkidding #maybe #hautepinkfoodie @ The London West Hollywood at\u2026 https://t.co/g00vkpW5ZS", 
+                "created_at": "Sat Jul 02 16:49:24 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -94.9803777, 
+                    29.7940389
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "This #Cosmetology #job might be a great fit for you: Specialty Beauty Advisor - https://t.co/crJb76NQwu #Baytown, TX #Hiring #CareerArc", 
+                "created_at": "Sat Jul 02 16:49:29 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -105.2077798, 
+                    40.0406506
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Want to work at Kelly Services? We're #hiring in #Boulder, CO! Click for details: https://t.co/Fw2MopFkgk #IT #KellyJobs #KellyServices #Job", 
+                "created_at": "Sat Jul 02 16:49:29 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -118.3367434, 
+                    33.8992535
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Woke up feeling so grateful! #IAmMormon https://t.co/2iruesQN04", 
+                "created_at": "Sat Jul 02 16:49:32 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    21.47760306, 
+                    65.33316866
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Living that robe-life med v\u00e4rml\u00e4nning in crime \ud83d\udc6f #v\u00e4rldensb\u00e4stav\u00e4rml\u00e4nningar @ Ankars https://t.co/XxmTCacmaG", 
+                "created_at": "Sat Jul 02 16:49:33 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    43.09923223, 
+                    40.60392103
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "\ud83d\ude1b (@ Kars Orduevi in Kars) https://t.co/qCVGAijg47", 
+                "created_at": "Sat Jul 02 16:49:38 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    61.40258789, 
+                    55.15893982
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "I'm at \u041f\u043b\u043e\u0449\u0430\u0434\u044c \u0420\u0435\u0432\u043e\u043b\u044e\u0446\u0438\u0438 in \u0427\u0435\u043b\u044f\u0431\u0438\u043d\u0441\u043a, \u0427\u0435\u043b\u044f\u0431\u0438\u043d\u0441\u043a\u0430\u044f \u043e\u0431\u043b. https://t.co/ukHQAybpEQ", 
+                "created_at": "Sat Jul 02 16:49:41 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    27.21897671, 
+                    38.46621953
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Prenses \u2764\ud83d\ude0a\u2764 @ Bornova Merkez https://t.co/IsP0VL5Iv4", 
+                "created_at": "Sat Jul 02 16:49:42 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    32.60453903, 
+                    29.29098564
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "7abebtii \u2764\u2764 #tb #throwback #year_ago @ Piacera El Sokhna https://t.co/U3n5CXpu1B", 
+                "created_at": "Sat Jul 02 18:50:07 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -43.0554433, 
+                    -21.36024675
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Just posted a photo @ Jardim Da Babil\u00f4nia https://t.co/0bry2IMjzr", 
+                "created_at": "Sat Jul 02 18:50:09 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.4731141, 
+                    51.75011461
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Around The World by Daft Punk is #nowplaying in Fit4less Hemel Hempstead, Hemel Hempstead.  Download it now at https://t.co/hG2n0ZolFu", 
+                "created_at": "Sat Jul 02 18:50:12 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -116.051, 
+                    44.524
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Happy 4th of July! # God bless America #cascadeidaho\u2026 https://t.co/PmcgvwErFy", 
+                "created_at": "Sat Jul 02 18:50:14 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    30.43255329, 
+                    40.71912214
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "I'm at G\u00fclp\u0131nar Dinlenme Tesisleri in Adapazar\u0131, T\u00fcrkiye https://t.co/dm0yPC5Iuw", 
+                "created_at": "Sat Jul 02 18:50:14 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -8.40252, 
+                    43.3710499
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "@santocristobeer Pale-Ale rec\u00e9n pinchadi\u00f1a @ A Cova C\u00e9ltica https://t.co/kd3tZCSYkm", 
+                "created_at": "Sat Jul 02 18:50:16 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    26.67962729, 
+                    41.25787562
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Sedefciim (@ Kahve Dura\u011f\u0131 in Edirne, Uzunk\u00f6pr\u00fc w/ @sdamnkse) https://t.co/EDU78xa6xC", 
+                "created_at": "Sat Jul 02 18:51:16 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    30.39257762, 
+                    40.7788848
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "I'm at Beytu\u015f https://t.co/EAocaQvArg", 
+                "created_at": "Sat Jul 02 18:51:21 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    30.232051, 
+                    38.1013133
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "37 can, 37 g\u00fcl \u00e7atlam\u0131\u015f Sivas'\u0131n i\u00e7inde. Nas\u0131l uyku tutar g\u00f6zlerimi?#2Temmuz1993\nKurban Olurum O G\u00fczel Kalbine\ud83d\udc9c https://t.co/xgUCyZKzds", 
+                "created_at": "Sat Jul 02 18:51:22 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.9164307, 
+                    42.3759586
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "We're #hiring! Read about our latest #job opening here: Psychologist - Medical Home Primary Care - https://t.co/4AkU7J3ATM #Healthcare", 
+                "created_at": "Sat Jul 02 18:51:24 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -112.0251155, 
+                    40.5124289
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "#CareerArc #Transportation #Job alert: Parts Delivery | O'Reilly Auto Parts | #HERRIMAN, UT https://t.co/K5gMgS4jAe #Jobs #Hiring", 
+                "created_at": "Sat Jul 02 18:51:25 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -94.4593018, 
+                    44.3144394
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Can you recommend anyone for this #Automotive #job? https://t.co/dArofLDnfX #autojobs #video #garagelife #NewUlm, MN #Hiring", 
+                "created_at": "Sat Jul 02 18:51:25 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -118.327662, 
+                    34.111818
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "My weekend plans \ud83c\udf1e #summer #tan #tanlife  #losangeles #hollywood #california #sunshine @\u2026 https://t.co/iEBktNlZMz", 
+                "created_at": "Sat Jul 02 18:51:27 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -77.02474091, 
+                    -12.09439861
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "#SF #GreatTeam @ Saga Falabella - Corporacion https://t.co/Z5uTKgSTTA", 
+                "created_at": "Sat Jul 02 18:51:28 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    26.62055969, 
+                    38.51298235
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Evimize geldik (@ Mordo\u011fan in Karaburun, \u0130zmir) https://t.co/NbuFXWULJ2", 
+                "created_at": "Sat Jul 02 18:51:30 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -1.6240122, 
+                    54.9477805
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Lvg #Newcastle\nona #Glasgow #Birmingham #train \nhttps://t.co/q8ruf8WO1R\n@luvthenorth444 https://t.co/GB6WtYV4Eq", 
+                "created_at": "Sat Jul 02 18:51:31 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -74.135306, 
+                    4.642791
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Maraton 19 comer https://t.co/DGy7DKMuVS", 
+                "created_at": "Sat Jul 02 18:51:32 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    47.96636224, 
+                    29.36338236
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "I'm at Salhiya Complex in Kuwait City, Al Asimah https://t.co/Fu3aGE58hs", 
+                "created_at": "Sat Jul 02 18:51:36 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -115.27990666, 
+                    36.13960798
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "\ud83c\udfb8\ud83c\udfb5\ud83c\udfbb\ud83c\udfb9\ud83c\udfa7\ud83c\udfa4\ud83d\udd25 (@ The Palms Recording Studio in Las Vegas, NV) https://t.co/lInfivthZV", 
+                "created_at": "Sat Jul 02 18:51:35 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    26.75499737, 
+                    38.66943461
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "I'm at K\u00f6fteci RamiZ Plus+ in Fo\u00e7a, \u0130zmir https://t.co/dISbqdpLCD", 
+                "created_at": "Sat Jul 02 18:51:43 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.87770758, 
+                    49.05552396
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Lots of activity today at Dunsmuir Community Garden. A wonderful place for a stroll. Lots for\u2026 https://t.co/MZF8B6iODr", 
+                "created_at": "Sat Jul 02 18:51:43 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -115.1398296, 
+                    36.1699412
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "If you're a professional in #LasVegas, NV, check out this #job: https://t.co/iWM4UshJ78 #VHSCareers #Hiring", 
+                "created_at": "Sat Jul 02 18:51:45 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -76.5372569, 
+                    42.55383714
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Just posted a photo @ Ludlowville Falls - Lansing, NY https://t.co/sOEbjK3Cem", 
+                "created_at": "Sat Jul 02 18:59:56 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    36.27980441, 
+                    41.33327965
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "I'm at Atakum Sahili in Samsun, T\u00fcrkiye https://t.co/0ddTZ9D1fO", 
+                "created_at": "Sat Jul 02 18:59:56 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -73.9925, 
+                    40.7218
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Drinking a Two Hearted Ale by @BellsBrewery at @freemansalley \u2014 https://t.co/Ut1qkqXB8H", 
+                "created_at": "Sat Jul 02 18:59:56 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    101.54289186, 
+                    3.16726307
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Almost home (@ Tomyam Udang Galah in Shah Alam, Selangor) https://t.co/gq5bL8r9jv", 
+                "created_at": "Sat Jul 02 18:59:57 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -99.1329, 
+                    19.4319
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "1. #CosasQueMeGustaHacer\n2. #FelizSabado\n3. Banda MS\n4. #NoQuieroSaberDe\n5. #YoApoyoAOsorio\n\n2016/7/2 13:55 CDT https://t.co/IN7801UqsL", 
+                "created_at": "Sat Jul 02 19:00:05 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -159.338, 
+                    22.0883
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Five years ago in Kapa'a and I miss it so much! Overdue for a trip back soon \u2764 \ud83c\udf38 \ud83c\udf3a @ Kapaa, Hawaii https://t.co/smCYO5fCSz", 
+                "created_at": "Sat Jul 02 19:00:08 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -1.61323333, 
+                    54.96999148
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Loop in a suit @ LOOP https://t.co/iuNcfOXIuC", 
+                "created_at": "Sat Jul 02 19:00:14 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -156.3319253, 
+                    20.7983626
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Owner Services Manager - Destination Residences Hawaii: (#Maui, HI) https://t.co/QQYw3MlVvF #Hospitality #Job #Jobs #Hiring", 
+                "created_at": "Sat Jul 02 19:00:14 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    115.8958567, 
+                    -31.96147208
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "I'm at Crown Sports Bar in Burswood, WA https://t.co/7zZ2HPSCdM", 
+                "created_at": "Sat Jul 02 19:00:25 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    27.08936691, 
+                    38.4855088
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Ata (@ Soyak Siesta 2 - @soyakyapi in \u0130zmir, Turkey) https://t.co/f2E4dGtoBa", 
+                "created_at": "Sat Jul 02 19:00:30 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    27.27596283, 
+                    37.35671816
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "\ud83d\ude0d\ud83d\ude0d (@ Alt\u0131nkum in Didim, Ayd\u0131n) https://t.co/zADemz2kSY", 
+                "created_at": "Sat Jul 02 19:00:30 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -77.04121593, 
+                    39.00159578
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "God is wonderful. Life is beautiful. I am happy when I see the love in this world. May it keeps spreading far and wide....", 
+                "created_at": "Sat Jul 02 19:00:42 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -82.5513, 
+                    35.5932
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Drinking a Bohemian Pilsner by Brevard Brewing Company @ Barley's Taproom &amp; Pizzeria \u2014 https://t.co/iC02FgEnOR", 
+                "created_at": "Sat Jul 02 19:00:55 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.1430195, 
+                    37.4418834
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Stanford Health Care #Hospitality #Job: Relief Housekeeping Assistant (37961) (#PaloAlto, CA) https://t.co/ZAd3apkYZj #Jobs #Hiring", 
+                "created_at": "Sat Jul 02 19:00:53 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -42.457125, 
+                    -5.039241
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "M\u00e3o pra frente gira, gira \ud83c\udfb5\n#eitaaltosreadiferente #respeitexepop   #fazteunome #quelokomano\u2026 https://t.co/InNrPaSw5X", 
+                "created_at": "Sat Jul 02 19:01:16 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -67.6293162, 
+                    10.2911895
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "https://t.co/XgPBwayVeq", 
+                "created_at": "Sat Jul 02 19:01:22 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -62.6436, 
+                    8.3731
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "#text\n#message\n#note\n#read\n#quote\n#golook\n#instatext\n#look\n#writers\n#\u2026 https://t.co/XmKNqZDgiz", 
+                "created_at": "Sat Jul 02 19:01:25 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -80.2432839, 
+                    36.1568627
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "We're #hiring! Read about our latest #job opening here: Shift/Team Leader-Retail Sales - https://t.co/hkes2vi6mD https://t.co/guJ9u8GOuS", 
+                "created_at": "Sat Jul 02 19:01:26 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    38.8975, 
+                    46.1006
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Just posted a photo @ Kanevskaya, Krasnodarskiy Kray, Russia https://t.co/vJIGQEe575", 
+                "created_at": "Sat Jul 02 19:01:29 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -44.4472223, 
+                    -22.4684625
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "4m nato \u00e9 a mlhr musica pqp", 
+                "created_at": "Sat Jul 02 19:01:33 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    15.28831975, 
+                    37.85289615
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Just posted a photo @ Toarmina Sicily https://t.co/FZAK8Cn0CO", 
+                "created_at": "Sat Jul 02 19:01:33 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -107.633113, 
+                    37.1150037
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Red Willow Production Company: Division Order Analyst II III Sr Division Order Analyst (#Ignacio, CO) https://t.co/keRSxx0OBi #IT #Job", 
+                "created_at": "Sat Jul 02 19:01:33 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    106.66656, 
+                    -6.56458
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "At Desa cimanggu 2 \u2014 https://t.co/HpDqjFueUT", 
+                "created_at": "Sat Jul 02 19:01:38 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    29.18503634, 
+                    40.89069467
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "I'm at Kartal Sahili in Kartal, T\u00fcrkiye https://t.co/ZqQT36UMyb", 
+                "created_at": "Sat Jul 02 19:06:48 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    27.35716939, 
+                    38.15837571
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "\ud83c\udf82\ud83c\udf81\ud83c\udf8a\u2764\ud83d\udc95 (@ Kahve Diyar\u0131 Plus - @kahve_diyari in Torbal\u0131, \u0130zmir w/ @jamirakuaay @gizematayyy @muyesser05) https://t.co/0El9Ibb1Pq", 
+                "created_at": "Sat Jul 02 19:06:51 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -48.6333, 
+                    -26.9833
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "eu, vc, 0 filhos e 1 pau de selfie \u2728 @ Balne\u00e1rio Cambori\u00fa, Brazil https://t.co/LjDrCsDPrv", 
+                "created_at": "Sat Jul 02 19:06:53 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.11827216, 
+                    51.53151321
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Spotlight on the Women Long Pureline Black\n-\n\u274c\u274c\u274c\u274c\u274c\u274c\u274c\u274c\u274c\u274c\u274c\u274c\u274c\u274c\u274c\u274c\n-\n#Collection #Exclusive #Model\u2026 https://t.co/JdwpPmREwD", 
+                "created_at": "Sat Jul 02 19:06:58 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    28.126271, 
+                    41.068492
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "I'm at Uyumkent Ye\u015fil Roma Dondurmalar\u0131 w/ @minnossshh https://t.co/NtA1Fmf0sY", 
+                "created_at": "Sat Jul 02 19:07:54 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -83.2831, 
+                    30.8467
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Sneak peak at some of the newest bows added to _bowtastic1\u2026 https://t.co/l9N5c1dSBg", 
+                "created_at": "Sat Jul 02 19:07:55 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -88.9936873, 
+                    40.4842027
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Can you recommend anyone for this #Healthcare #job? https://t.co/jAk9KSFB9P #urgentcare #Bloomington, IL #Veterans #Hiring", 
+                "created_at": "Sat Jul 02 19:07:59 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    28.97410691, 
+                    41.02565519
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "I'm at Galata Kulesi in Beyo\u011flu, T\u00fcrkiye https://t.co/Q8mfRokkyD", 
+                "created_at": "Sat Jul 02 19:07:59 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -89.2592818, 
+                    33.5259042
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Join the SONIC Drive-In team! See our latest #Hospitality #job opening here: https://t.co/HjYoY72WBl #SONIC #Eupora, MS #Hiring #CareerArc", 
+                "created_at": "Sat Jul 02 19:08:00 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -105.937799, 
+                    35.6869752
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Inn and Spa at Loretto #Hospitality #Job: Room Attendant (#SantaFe, NM) https://t.co/PVblBuEk7i #Jobs #Hiring #CareerArc", 
+                "created_at": "Sat Jul 02 19:08:00 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -43.28225058, 
+                    -22.88631013
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "I'm at @Croasonho in Rio de Janeiro, RJ https://t.co/jQy6TqDiZd", 
+                "created_at": "Sat Jul 02 19:08:01 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    26.74871564, 
+                    38.39518882
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "I'm at \u00c7e\u015fmealt\u0131 in Urla, \u0130zmir w/ @sudepolaat https://t.co/4pQ1IjlS2X", 
+                "created_at": "Sat Jul 02 19:08:04 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    49.25158103, 
+                    53.5017479
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "I'm at Bar BQ in \u0422\u043e\u043b\u044c\u044f\u0442\u0442\u0438 https://t.co/mWh0gShdxl", 
+                "created_at": "Sat Jul 02 19:08:05 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -95.6307891, 
+                    31.7621153
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Can you recommend anyone for this #Retail #job? https://t.co/DAKszwjFGI #PALESTINE, TX #Hiring #CareerArc", 
+                "created_at": "Sat Jul 02 19:08:09 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.54268492, 
+                    38.55848149
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "#castellodiamorosa #wine #roadtrip @ Castello di Amorosa, Napa Valley https://t.co/mE6yq4JRPy", 
+                "created_at": "Sat Jul 02 19:08:10 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -80.1738365, 
+                    40.2634203
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "#Canonsburg, PA #IT #Job: Manager of Business Intelligence at MedExpress https://t.co/Bj7Si5EStY #Veterans #Jobs #Hiring #CareerArc", 
+                "created_at": "Sat Jul 02 19:08:09 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -86.7405, 
+                    33.487
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Too hot to do anything but be in the pool... And drink champagne \ud83c\udf7e\u2600\ufe0f \\\\ Handley Breaux Designs\u2026 https://t.co/Npe73DHR3j", 
+                "created_at": "Sat Jul 02 19:08:19 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    35.20628912, 
+                    31.70468576
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "st. george slays the dragon at the church of the nativity, birthplace of Jesus @ Bethlehem,\u2026 https://t.co/92isEBkqaS", 
+                "created_at": "Sat Jul 02 19:08:20 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    103.74361, 
+                    1.46102
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Nobar deutschland deutschland \u00fcber alles\ud83c\udde9\ud83c\uddea\ud83c\udde9\ud83c\uddea\ud83c\udde9\ud83c\uddea (with Yustinus, Andri, and 5 others at Restoran Yasin) \u2014 https://t.co/9YqGR1nJXJ", 
+                "created_at": "Sat Jul 02 19:10:26 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -156.23442854, 
+                    20.73682496
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "1 hr sleep, 1AM alarm, 2:15AM pick up, 42\u00b0, 35MPH winds/55MPH gusts, 1 amazing sunrise from the\u2026 https://t.co/HLDbJDakqp", 
+                "created_at": "Sat Jul 02 19:10:28 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    32.64663631, 
+                    40.47082729
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Yine yeniden (@ K\u0131z\u0131lcahamam \u00c7ar\u015f\u0131 in K\u0131z\u0131lcahamam, Ankara) https://t.co/3YbNwqMoir", 
+                "created_at": "Sat Jul 02 19:10:29 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -58.48814249, 
+                    -34.48466289
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "I'm at @PFChangsAr in Mart\u00ednez, Buenos Aires https://t.co/yDKui1MZNr", 
+                "created_at": "Sat Jul 02 19:10:30 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    51.4274528, 
+                    25.3361521
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "I just found it in Youtube,,, but i can't understand what they are talking\u2026 https://t.co/tRgVwRw3Le", 
+                "created_at": "Sat Jul 02 19:11:56 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -82.50282, 
+                    28.05792
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Who needs a table for tonight's 813-481-9834 #BillionsBirthday @ Whiskey North https://t.co/4U4CA3lP8x", 
+                "created_at": "Sat Jul 02 19:11:58 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -38.30011938, 
+                    -12.90343434
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Te Amo vida \ud83d\ude0d\ud83d\ude19\ud83d\ude18#amoreterno #amomuito #vibepositiva\u2026 https://t.co/TdQt5O70Su", 
+                "created_at": "Sat Jul 02 19:12:03 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    28.96163464, 
+                    40.20972054
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "I'm at Be\u015fevler in Nil\u00fcfer, Bursa https://t.co/DEV0zQaxFi", 
+                "created_at": "Sat Jul 02 19:12:09 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    22.520066, 
+                    51.238028
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "@bozektadeusz A tu spok\u00f3j, przez minut\u0119 kropi\u0142o", 
+                "created_at": "Sat Jul 02 19:12:10 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -44.71501291, 
+                    -23.21894932
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "d'alma @ Pra\u00e7a da Matriz - Paraty https://t.co/EZks3V9xh5", 
+                "created_at": "Sat Jul 02 19:12:16 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    32.81098008, 
+                    39.91820399
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "I'm at A\u015eT\u0130 in Yenimahalle, Ankara https://t.co/5QOZm8ma9h", 
+                "created_at": "Sat Jul 02 19:12:14 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -96.8565948, 
+                    32.6174192
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "SONIC Drive-In: Assistant Manager (#DeSoto, TX) https://t.co/6r6BzVQBiB #Hospitality #SONIC #Job #Jobs #Hiring #CareerArc", 
+                "created_at": "Sat Jul 02 19:12:18 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -79.5389289, 
+                    40.3014581
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "#Retail #Job alert: Store Leader-dressbarn | dressbarn | #Greensburg, PA https://t.co/8WAzJaoyeF #Jobs #Hiring", 
+                "created_at": "Sat Jul 02 19:12:29 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    32.71384425, 
+                    39.97010882
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "I'm at Mado in Ankara https://t.co/lIaIp6OqaJ", 
+                "created_at": "Sat Jul 02 19:12:33 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -8.3870733, 
+                    37.1010866
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "and a coffee", 
+                "created_at": "Sat Jul 02 19:12:33 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -115.298, 
+                    36.1475
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Drinking an All Nighter by Chicago Brewing Company @ Chicago Brewing Company \u2014 https://t.co/UVhK1Y4Oq9", 
+                "created_at": "Sat Jul 02 19:12:34 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -70.31787057, 
+                    43.70298796
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "@allagashbrewing did not disappoint. Amazing. @ Allagash Brewing Company https://t.co/AiU0BkzJaF", 
+                "created_at": "Sat Jul 02 19:12:35 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    13.462512, 
+                    52.49532056
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "No rave, but football #gerita (@ ELSE in Berlin) https://t.co/QiAhqJjRuR", 
+                "created_at": "Sat Jul 02 19:12:34 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -104.986, 
+                    39.7293
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Drinking a Sinister Saison by LowDown Brewery + Kitchen at @lowdownbrewery \u2014 https://t.co/WJaa8JuNkZ", 
+                "created_at": "Sat Jul 02 19:12:41 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -88.1535352, 
+                    42.0881054
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Can you recommend anyone for this #job? Pharmacy Technician - https://t.co/jrXIiGFVoF #SouthBarrington, IL #Healthcare #Hiring #CareerArc", 
+                "created_at": "Sat Jul 02 19:12:50 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    34.74079168, 
+                    38.66681918
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "I'm at Alos79 https://t.co/2YBoK8tT78", 
+                "created_at": "Sat Jul 02 19:12:55 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -72.94015091, 
+                    -41.45940618
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "\ud83d\ude1e (@ Nicole's Home \ud83c\udf80 in Puerto Montt, Regi\u00f3n de Los Lagos) https://t.co/j6Z03y169M", 
+                "created_at": "Sat Jul 02 19:12:54 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    47.97961205, 
+                    29.37406517
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "I'm at VOL.1 in Kuwait City w/ @jmeeell___ https://t.co/nZETRIytTU", 
+                "created_at": "Sat Jul 02 19:12:58 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -94.77535542, 
+                    39.01008625
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "I'm at Sport Clips in Shawnee, KS https://t.co/DPReZMgJhC", 
+                "created_at": "Sat Jul 02 19:12:56 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    30.76238087, 
+                    46.42983266
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "I'm at \u0427\u0430\u0439\u043a\u0430 in \u041e\u0434\u0435\u0441\u0441\u0430 w/ @serkanoa5 https://t.co/budLIX7vPy", 
+                "created_at": "Sat Jul 02 19:12:59 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -96.10375667, 
+                    19.09380548
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Siempre hay una primera vez (@ Cin\u00e9polis - @cinepolis in Boca del R\u00edo, VER, Veracruz) https://t.co/PHvEmolo0Y", 
+                "created_at": "Sat Jul 02 19:13:04 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -81.5022309, 
+                    41.5023709
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "This #Hospitality #job might be a great fit for you: Dishwasher - Military - https://t.co/aBgJiArJ3C #Lyndhurst, OH #Veterans #Hiring", 
+                "created_at": "Sat Jul 02 19:13:11 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -74.08699, 
+                    4.65723
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Este libro se propone dilucidar las complejas relaciones entre medio ambiente, conflictos\u2026 https://t.co/gbTJTjInFL", 
+                "created_at": "Sat Jul 02 19:13:11 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    34.84601931, 
+                    38.71623752
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "I'm at Irmak Cafe in Avanos, Kapadokya https://t.co/UuKuB8nMh4", 
+                "created_at": "Sat Jul 02 19:13:14 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -84.247969, 
+                    10.0235135
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Mi mam\u00e1 detesta cuando no le presto atenci\u00f3n, y ella a m\u00ed me ignora AF y hay que estar feliz sin decirle nada... Qu\u00e9 atenta, 'chas gracias.", 
+                "created_at": "Sat Jul 02 19:13:20 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -73.974501, 
+                    40.735558
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "ONE DAY LEFT...#THISSUNDAY\ud83d\udef3\ud83c\udfa5 #TOMORROW #july3rd #independenceweekend 6pm-10pm\u2026 https://t.co/SI2xybxeGL", 
+                "created_at": "Sat Jul 02 19:13:21 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -101.03033781, 
+                    22.12752752
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "I'm at @PlazaSanLuis in San Luis Potos\u00ed, San Luis Potosi https://t.co/KV2fY4xdya", 
+                "created_at": "Sat Jul 02 19:13:21 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.6462306, 
+                    48.30304947
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Dem shorts though!!  Lol dont think i can ever pull that off!!  Love it!! #ZumbawithKayt\u2026 https://t.co/9MqXDYFtx9", 
+                "created_at": "Sat Jul 02 19:13:29 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -62.2709777, 
+                    -38.7027201
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "#LigadelSur \u00a1GOL de Libertad! Dario Gigena a los 33'PT. Libertad 1-La Armon\u00eda 0", 
+                "created_at": "Sat Jul 02 19:13:27 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -89.65507749, 
+                    39.73020545
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Bwow! (@ Southwind Park in Springfield, IL) https://t.co/yDeTQDtQRb", 
+                "created_at": "Sat Jul 02 19:13:37 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    36.33557439, 
+                    41.28426456
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "I'm at \u00c7iftlik Caddesi in Samsun, T\u00fcrkiye w/ @_muratdurmus https://t.co/1JeSKd04qQ", 
+                "created_at": "Sat Jul 02 19:13:38 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.33295621, 
+                    53.74454814
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "#wedding #family #strut #slay #workitbitch @ Guildhall https://t.co/DPFMomWZjG", 
+                "created_at": "Sat Jul 02 19:13:41 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -84.2363975, 
+                    33.9160961
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "Join the Penske Truck Leasing team! See our latest #BusinessMgmt #job opening here: https://t.co/sQIV782mb1 #gopenskecareers #Norcross, GA", 
+                "created_at": "Sat Jul 02 19:13:41 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    103.42539765, 
+                    4.7466906
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "I'm at Laila Tomyam &amp; Seafood in Dungun, Terengganu https://t.co/7dfBzY92xg", 
+                "created_at": "Sat Jul 02 19:13:44 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -80.186821, 
+                    26.6854305
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "YESSSSS!!! @Syringes #slipknot #coreytaylor @ Perfect Vodka Amphitheatre https://t.co/MGSzQWGI6y", 
+                "created_at": "Sat Jul 02 19:13:54 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -83.74896784, 
+                    42.26579573
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "GO BLUE! @ University of Michigan Stadium https://t.co/CnCX1fFqec", 
+                "created_at": "Sat Jul 02 19:13:51 +0000 2016"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    32.83536673, 
+                    39.82882427
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "text": "I'm at Eymir G\u00f6l\u00fc in \u00c7ankaya, Ankara w/ @gamzedeemiir https://t.co/m74AnXvl4u", 
+                "created_at": "Sat Jul 02 19:13:56 +0000 2016"
+            }
+        }
+    ]
+}

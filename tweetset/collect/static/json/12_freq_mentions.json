@@ -1,0 +1,241 @@
+{
+  "axes": [
+    {
+      "properties": {
+        "axis": {},
+        "labels": {
+          "align": {
+            "value": "right"
+          },
+          "angle": {
+            "value": -45
+          }
+        },
+        "majorTicks": {},
+        "minorTicks": {},
+        "title": {}
+      },
+      "scale": "x",
+      "type": "x"
+    },
+    {
+      "scale": "y",
+      "type": "y"
+    }
+  ],
+  "data": [
+    {
+      "name": "table",
+      "values": [
+        {
+          "col": "data",
+          "idx": "@youtube",
+          "val": 244
+        },
+        {
+          "col": "data",
+          "idx": "@khalid_bintalal",
+          "val": 119
+        },
+        {
+          "col": "data",
+          "idx": "@bts_twt",
+          "val": 116
+        },
+        {
+          "col": "data",
+          "idx": "@themattespinosa",
+          "val": 98
+        },
+        {
+          "col": "data",
+          "idx": "@ashton5sos",
+          "val": 76
+        },
+        {
+          "col": "data",
+          "idx": "@girlposts",
+          "val": 62
+        },
+        {
+          "col": "data",
+          "idx": "@camiladiscreta",
+          "val": 50
+        },
+        {
+          "col": "data",
+          "idx": "@crowdfundgurus",
+          "val": 47
+        },
+        {
+          "col": "data",
+          "idx": "@realdonaldtrump",
+          "val": 41
+        },
+        {
+          "col": "data",
+          "idx": "@freddyamazin",
+          "val": 37
+        },
+        {
+          "col": "data",
+          "idx": "@indiegogo",
+          "val": 37
+        },
+        {
+          "col": "data",
+          "idx": "@5hnewsbrasil",
+          "val": 32
+        },
+        {
+          "col": "data",
+          "idx": "@stylefashionhub",
+          "val": 31
+        },
+        {
+          "col": "data",
+          "idx": "@gshow",
+          "val": 28
+        },
+        {
+          "col": "data",
+          "idx": "@dailyrapfacts",
+          "val": 28
+        },
+        {
+          "col": "data",
+          "idx": "@femaletexts",
+          "val": 27
+        },
+        {
+          "col": "data",
+          "idx": "@sodamntrue",
+          "val": 26
+        },
+        {
+          "col": "data",
+          "idx": "@normanikrordei",
+          "val": 25
+        },
+        {
+          "col": "data",
+          "idx": "@freakin_danni",
+          "val": 25
+        },
+        {
+          "col": "data",
+          "idx": "@real_liam_payne",
+          "val": 24
+        }
+      ]
+    },
+    {
+      "name": "stats",
+      "source": "table",
+      "transform": [
+        {
+          "keys": [
+            "data.idx"
+          ],
+          "type": "facet"
+        },
+        {
+          "type": "stats",
+          "value": "data.val"
+        }
+      ]
+    }
+  ],
+  "height": 400,
+  "legends": [
+    {
+      "fill": "color",
+      "offset": 0,
+      "properties": {},
+      "title": "Most frequent mentions"
+    }
+  ],
+  "marks": [
+    {
+      "from": {
+        "data": "table",
+        "transform": [
+          {
+            "keys": [
+              "data.col"
+            ],
+            "type": "facet"
+          },
+          {
+            "height": "data.val",
+            "point": "data.idx",
+            "type": "stack"
+          }
+        ]
+      },
+      "marks": [
+        {
+          "properties": {
+            "enter": {
+              "fill": {
+                "field": "data.col",
+                "scale": "color"
+              },
+              "width": {
+                "band": true,
+                "offset": -1,
+                "scale": "x"
+              },
+              "x": {
+                "field": "data.idx",
+                "scale": "x"
+              },
+              "y": {
+                "field": "y",
+                "scale": "y"
+              },
+              "y2": {
+                "field": "y2",
+                "scale": "y"
+              }
+            }
+          },
+          "type": "rect"
+        }
+      ],
+      "type": "group"
+    }
+  ],
+  "padding": "auto",
+  "scales": [
+    {
+      "domain": {
+        "data": "table",
+        "field": "data.idx"
+      },
+      "name": "x",
+      "range": "width",
+      "type": "ordinal",
+      "zero": false
+    },
+    {
+      "domain": {
+        "data": "stats",
+        "field": "sum"
+      },
+      "name": "y",
+      "nice": true,
+      "range": "height"
+    },
+    {
+      "domain": {
+        "data": "table",
+        "field": "data.col"
+      },
+      "name": "color",
+      "range": "category20",
+      "type": "ordinal"
+    }
+  ],
+  "width": 600
+}
