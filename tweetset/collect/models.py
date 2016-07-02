@@ -110,11 +110,11 @@ class Collection(models.Model):
                 high = int(p_info[p]['name'][-10:])
                 print p_info[p]['name'][-10:]
                 pos = p
-        print 'high ',
-        print high
-        print '\n'
-        print p_info[p]['name']
-        print p_info[p]['statename']
+        # print 'high ',
+        # print high
+        # print '\n'
+        # print p_info[p]['name']
+        # print p_info[p]['statename']
 
         print '\n\n'
         start = 'stats_collection'
