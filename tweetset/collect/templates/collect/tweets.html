@@ -57,6 +57,7 @@
             <td><img src="{{tweet.data.user.profile_image_url}}" class="img-thumbnail"></td>
             <td><a href="https://twitter.com/{{tweet.data.user.screen_name}}"" target="_blank">{{tweet.data.user.screen_name}}</a></td>
             <td>{{tweet.data.text}}</td>
+            <td>{{tweet.parse_datetime}}</td>
             <td><a href="https://twitter.com/statuses/{{tweet.twitter_id}}"" target="_blank">{{tweet.twitter_id}}</a></td>
             </tr>
             {% endfor %}
