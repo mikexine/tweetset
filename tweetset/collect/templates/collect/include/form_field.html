@@ -1,15 +1,21 @@
 {% load widget_tweaks %}
 <div class="form-group {% if field.errors %}has-error{% endif %}">
-{% if checkbox %}
 
-<div class="checkbox">
-  <label>
-    {{field}}
-    {{field.label}} {% if field.help_text %}<span class="glyphicon glyphicon-question-sign tooltip-control" data-toggle="tooltip" style="font-weight:normal;" title="{{field.help_text}}"></span>{% endif %}
-  </label>
-</div>
-{% else %}
-  <label class="control-label">{{field.label}}</label> {% if field.help_text %}<span class="glyphicon glyphicon-question-sign tooltip-control" data-toggle="tooltip" style="font-weight:normal;" title="{{field.help_text}}"></span>{% endif %}
+{% if checkbox %}
+  <div class="checkbox">
+    <label>
+      {{field}}
+      {{field.label}} {% if field.help_text %}<span class="glyphicon glyphicon-question-sign tooltip-control" data-toggle="tooltip" style="font-weight:normal;" title="{{field.help_text}}"></span>{% endif %}
+    </label>
+  </div>
+  {% else %}
+
+    {% if field.label == "Name" %}<label class="control-label">New name: </label>
+
+    {% else %}<label class="control-label">{{field.label}}</label> {% endif %}
+
+     {% if field.help_text and field.label != "Name" %}<span class="glyphicon glyphicon-question-sign tooltip-control" data-toggle="tooltip" style="font-weight:normal;" title="{{field.help_text}}"></span>{% endif %}
+
   {% if checkboxmultiple %}
     {% if allusers %}
     <div class="checkbox">
