@@ -46,7 +46,15 @@
                 </div>   
                 &nbsp;
                 &nbsp;
-                <a href="{% url 'make_stats' collection_id=collection.pk %}" class="btn btn-warning btn-xs ts-loading" data-loading-text="Launching..">Make Stats!</a>   
+                {% if collection.mstats_running %}
+                <a href="#" class="btn btn-warning btn-xs ts-loading" data-loading-text="Launching..">Loading...</a>
+
+                {% else %}
+<a href="{% url 'make_stats' collection_id=collection.pk %}" class="btn btn-warning btn-xs ts-loading" data-loading-text="Launching..">Make Stats!</a>
+                {% endif %}
+
+
+                
                 <div class="btn-group">
                   <button type="button" class="btn btn-xs btn-default dropdown-toggle" data-toggle="dropdown">
                     Stats <span class="caret"></span>

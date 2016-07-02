@@ -153,7 +153,9 @@ def start_collection(request, collection_id):
 @login_required
 def make_stats(request, collection_id):
     c = get_object_or_404(Collection, pk=collection_id, user=request.user)
-    if c.mstats():
+    a = c.mstats()
+    print a
+    if a:
         messages.success(request, "Stats will be available soon!")
     else:
         messages.error(request, "Err.. Stats could not be started.")

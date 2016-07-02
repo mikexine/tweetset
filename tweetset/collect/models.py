@@ -7,6 +7,7 @@ from django.conf import settings
 import os
 from email.utils import parsedate
 from datetime import datetime
+import time
 
 from django.core.exceptions import ValidationError
 
@@ -81,22 +82,53 @@ class Collection(models.Model):
 
     def mstats(self):
         s = xmlrpclib.ServerProxy(settings.SUPERVISOR_URI)
-        if not self.exists():
-            try:
-                s.twiddler.addProgramToGroup('tweetset', 'stats_collection'+str(self.pk), 
-                {'command':settings.PYTHON_EXECUTABLE+' '+os.path.join(settings.PROJECT_DIR,'manage.py')+' stats '+str(self.pk),
-                'autostart':'false', 
-                'autorestart':'false', 
-                'startsecs':'3'})
-            except:
-                return False
+        timestamp = int(time.time())
+        s.twiddler.addProgramToGroup('tweetstats', 'stats_collection'+str(self.pk)+'_'+str(timestamp), 
+        {'command':settings.PYTHON_EXECUTABLE+' '+os.path.join(settings.PROJECT_DIR,'manage.py')+' stats '+str(self.pk),
+        'autostart':'false', 
+        'autorestart':'unexpected', 
+        'startsecs':'3'})
         if not self.is_running():
             try:
-                s.supervisor.startProcess('tweetset:stats_collection'+str(self.pk))
+                s.supervisor.startProcess('tweetstats:stats_collection'+str(self.pk)+'_'+str(timestamp))
             except:
                 return False
             return True
         return True
+
+
+    def mstats_running(self):
+        s = xmlrpclib.ServerProxy(settings.SUPERVISOR_URI)
+        p_info = s.supervisor.getAllProcessInfo()
+        high = 0
+        pos = 0
+        print '\n'
+        for p in range(len(p_info)):
+            print p
+            print p_info[p]['name'][-10:]
+            if int(p_info[p]['name'][-10:]) > high:
+                high = int(p_info[p]['name'][-10:])
+                print p_info[p]['name'][-10:]
+                pos = p
+        print 'high ',
+        print high
+        print '\n'
+        print p_info[p]['name']
+        print p_info[p]['statename']
+
+        print '\n\n'
+        start = 'stats_collection'
+        end = '_1467502512'
+        print 'coll ------> ',
+        print p_info[pos]['name'][16:18]
+
+        if p_info[pos]['statename']=='RUNNING' and p_info[pos]['name'][16:18] == str(self.pk):
+            return True
+        else:
+            return False
+
+
+
 
     def __unicode__(self):
         return unicode(self.name)
