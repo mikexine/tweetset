@@ -23,7 +23,7 @@ body {
 /* Not required for template or sticky footer method. */
 
 body > .container {
-  padding: 60px 15px 0;
+  padding: 10px 15px 0;
 }
 .container .text-muted {
   margin: 20px 0;
@@ -36,4 +36,32 @@ body > .container {
 
 code {
   font-size: 80%;
+}
+
+
+
+.wrap {
+    width: auto;
+    height: 250px;
+    padding: 0;
+    overflow: hidden;
+}
+.frame {
+    width: 1280px;
+    height: 786px;
+    -ms-transform: scale(0.60);
+    -moz-transform:  scale(0.60);
+    -o-transform: scale(0.60);
+    -webkit-transform:  scale(0.60);
+    transform:  scale(0.60);
+    
+    -ms-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    scrolling: no;
+    border: 0px none; 
+    margin-left: -160px; 
+    margin-top: -20px;
 }
