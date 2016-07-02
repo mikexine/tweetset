@@ -51,7 +51,7 @@ class Command(BaseCommand):
                 # if 'limit' in status:
                 #     logger.warn("The filtered stream has matched more Tweets than its current rate limit allows it to be delivered.")
             def on_error(self, status):
-                logger.error("Received error code "+str(status_code)+".")
+                logger.error("Received error code "+str(status)+".")
 
         # class TapStreamer(TwythonStreamer):
         #     def on_success(self, data):
