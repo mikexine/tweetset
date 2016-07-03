@@ -38,7 +38,7 @@ class Command(BaseCommand):
         class MyListener(StreamListener):
             def on_status(self, status):
                 if status.text is not None:
-                    try:
+                    # try:
                         # data = status._json
                         print '123\n\n'
                         print status.user 
@@ -98,9 +98,9 @@ class Command(BaseCommand):
 
 
                         t.save()
-                    except Exception:
-                            exc_type, exc_obj, exc_tb = sys.exc_info()
-                            logger.error("Couldn't save a tweet: "+str(exc_obj))
+                    # except Exception:
+                    #         exc_type, exc_obj, exc_tb = sys.exc_info()
+                    #         logger.error("Couldn't save a tweet: "+str(exc_obj))
                 # if 'limit' in status:
                 #     logger.warn("The filtered stream has matched more Tweets than its current rate limit allows it to be delivered.")
             def on_error(self, status):
