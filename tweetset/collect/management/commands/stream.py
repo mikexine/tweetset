@@ -38,69 +38,69 @@ class Command(BaseCommand):
         class MyListener(StreamListener):
             def on_status(self, status):
                 if status.text is not None:
-                    # try:
-                    # data = status._json
-                    print '123\n\n'
-                    print status.user 
-                    print '123\n\n'
-                    usr, cr = TweetAccount.objects.update_or_create(
-                        account_id=status.user.id,
-                        followers_count=status.user.followers_count,
-                        following_count=status.user.friends_count,
-                        screen_name=status.user.screen_name,
-                        verified=status.user.verified,
-                        profile_image_url=status.user.profile_image_url)
+                    try:
+                        # data = status._json
+                        print '123\n\n'
+                        print status.user 
+                        print '123\n\n'
+                        usr, cr = TweetAccount.objects.update_or_create(
+                            account_id=status.user.id,
+                            followers_count=status.user.followers_count,
+                            following_count=status.user.friends_count,
+                            screen_name=status.user.screen_name,
+                            verified=status.user.verified,
+                            profile_image_url=status.user.profile_image_url)
 
-                    print '1'
-                    print usr
-                    t, created = Tweet.objects.get_or_create(collection=collection,twitter_user = usr,twitter_id=int(status.id))
-                    # t.data = data
-                    t.text = status.text
-                    if status.coordinates is not None:
-                        t.lon = status.coordinates['coordinates'][0]
-                        t.lat = status.coordinates['coordinates'][1]
-                    else:
-                        t.lon = None
-                        t.lat = None
-                    t.tweet_time = status.created_at
-                    logger.warn(str(t))
+                        print '1'
+                        print usr
+                        t, created = Tweet.objects.get_or_create(collection=collection,twitter_user = usr,twitter_id=int(status.id))
+                        # t.data = data
+                        t.text = status.text
+                        if status.coordinates is not None:
+                            t.lon = status.coordinates['coordinates'][0]
+                            t.lat = status.coordinates['coordinates'][1]
+                        else:
+                            t.lon = None
+                            t.lat = None
+                        t.tweet_time = status.created_at
+                        logger.warn(str(t))
 
-                    if status.entities['hashtags'] == []:
-                        t.hashtags = None
-                    else:
-                        h = []
-                        for hashtag in range(len(status.entities['hashtags'])):
-                            h.append(status.entities['hashtags'][hashtag]['text'])
-                        t.hashtags = h
-
-
-                    if status.entities['urls'] == []:
-                        t.urls = None
-                    else:
-                        h = []
-                        for url in range(len(status.entities['urls'])):
-                            h.append(status.entities['urls'][url]['display_url'])
-                        t.urls = h
+                        if status.entities['hashtags'] == []:
+                            t.hashtags = None
+                        else:
+                            h = []
+                            for hashtag in range(len(status.entities['hashtags'])):
+                                h.append(status.entities['hashtags'][hashtag]['text'])
+                            t.hashtags = h
 
 
-                    if status.entities['user_mentions'] == []:
-                        t.urls = None
-                    else:
-                        h = []
-                        for user in range(len(status.entities['user_mentions'])):
-                            h.append(status.entities['user_mentions'][user]['screen_name'])
-                        t.user_mentions = h
+                        if status.entities['urls'] == []:
+                            t.urls = None
+                        else:
+                            h = []
+                            for url in range(len(status.entities['urls'])):
+                                h.append(status.entities['urls'][url]['display_url'])
+                            t.urls = h
 
 
-                    t.in_reply_to_user = status.in_reply_to_screen_name
-                    t.lang = status.lang
+                        if status.entities['user_mentions'] == []:
+                            t.urls = None
+                        else:
+                            h = []
+                            for user in range(len(status.entities['user_mentions'])):
+                                h.append(status.entities['user_mentions'][user]['screen_name'])
+                            t.user_mentions = h
+
+
+                        t.in_reply_to_user = status.in_reply_to_screen_name
+                        t.lang = status.lang
 
 
 
-                    t.save()
-                    # except Exception:
-                    #         exc_type, exc_obj, exc_tb = sys.exc_info()
-                    #         logger.error("Couldn't save a tweet: "+str(exc_obj))
+                        t.save()
+                    except Exception:
+                            exc_type, exc_obj, exc_tb = sys.exc_info()
+                            logger.error("Couldn't save a tweet: "+str(exc_obj))
                 # if 'limit' in status:
                 #     logger.warn("The filtered stream has matched more Tweets than its current rate limit allows it to be delivered.")
             def on_error(self, status):

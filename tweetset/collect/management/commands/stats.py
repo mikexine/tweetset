@@ -107,27 +107,28 @@ class Command(BaseCommand):
         count_mentions = Counter()
         count_bigram = Counter()
         for t in list_of_tweets:
-            tweet = t.text
-            pr += 1
-            print str(t.tweet_time) + " ok: " + str(pr)
-            terms_stop = [term for term in preprocess(tweet)
-                          if term not in stop and
-                          not term.startswith(('#', '@', 'http')) and
-                          len(term) > 2]
-            hashtags_only = [term for term in preprocess(tweet)
-                             if term.startswith(('#')) and
-                            len(term) > 2]
-            mentions_only = [term for term in preprocess(tweet)
-                             if term.startswith(('@')) and len(term) > 1]
-                # terms = [term for term in preprocess(tweet['text'])
-                #          if term not in stop and len(term) != 1]
-                # # track when the hashtag is mentioned
-                # if t1 in terms:
-                #     dates_t1.append(tweet['created_at'])
-                # if t2 in terms:
-                #     dates_t2.append(tweet['created_at'])
-            # except:
-            #     err += 1
+            try:
+                tweet = t.text
+                pr += 1
+                print str(t.tweet_time) + " ok: " + str(pr)
+                terms_stop = [term for term in preprocess(tweet)
+                              if term not in stop and
+                              not term.startswith(('#', '@', 'http')) and
+                              len(term) > 2]
+                hashtags_only = [term for term in preprocess(tweet)
+                                 if term.startswith(('#')) and
+                                len(term) > 2]
+                mentions_only = [term for term in preprocess(tweet)
+                                 if term.startswith(('@')) and len(term) > 1]
+                    # terms = [term for term in preprocess(tweet['text'])
+                    #          if term not in stop and len(term) != 1]
+                    # # track when the hashtag is mentioned
+                    # if t1 in terms:
+                    #     dates_t1.append(tweet['created_at'])
+                    # if t2 in terms:
+                    #     dates_t2.append(tweet['created_at'])
+            except:
+                err += 1
             count_stop.update(terms_stop)
             count_hashtags.update(hashtags_only)
             count_mentions.update(mentions_only)
@@ -135,20 +136,20 @@ class Command(BaseCommand):
             print "map: ",
             print a
             a += 1
-            # try:
+            try:
 
-            if t.lat:
-                geo_json_feature = {
-                    "type": "Feature",
-                    "geometry": {
-                        "coordinates": [float(t.lon), float(t.lat)],"type":"Point"},
-                    "properties": {
-                        "text": tweet
+                if t.lat:
+                    geo_json_feature = {
+                        "type": "Feature",
+                        "geometry": {
+                            "coordinates": [float(t.lon), float(t.lat)],"type":"Point"},
+                        "properties": {
+                            "text": tweet
+                        }
                     }
-                }
-                geo_data['features'].append(geo_json_feature)
-            # except: 
-            #     pass
+                    geo_data['features'].append(geo_json_feature)
+            except: 
+                pass
 
             # asjdnalsjkdalsd
             # askdjbaskjdhajkhsd
