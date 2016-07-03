@@ -44,7 +44,7 @@ class Command(BaseCommand):
 
         list_of_tweets = []
         for t in collection.tweets.all():
-            list_of_tweets.append(t.data)
+            list_of_tweets.append(t)
         
         # print list_of_tweets
 
@@ -107,19 +107,18 @@ class Command(BaseCommand):
         count_mentions = Counter()
         count_bigram = Counter()
         for t in list_of_tweets:
-            tweet = t
-            try:
-                pr += 1
-                print str(tweet['created_at']) + " ok: " + str(pr)
-                terms_stop = [term for term in preprocess(tweet['text'])
-                              if term not in stop and
-                              not term.startswith(('#', '@', 'http')) and
-                              len(term) > 2]
-                hashtags_only = [term for term in preprocess(tweet['text'])
-                                 if term.startswith(('#')) and
-                                len(term) > 2]
-                mentions_only = [term for term in preprocess(tweet['text'])
-                                 if term.startswith(('@')) and len(term) > 1]
+            tweet = t.text
+            pr += 1
+            print str(t.tweet_time) + " ok: " + str(pr)
+            terms_stop = [term for term in preprocess(tweet)
+                          if term not in stop and
+                          not term.startswith(('#', '@', 'http')) and
+                          len(term) > 2]
+            hashtags_only = [term for term in preprocess(tweet)
+                             if term.startswith(('#')) and
+                            len(term) > 2]
+            mentions_only = [term for term in preprocess(tweet)
+                             if term.startswith(('@')) and len(term) > 1]
                 # terms = [term for term in preprocess(tweet['text'])
                 #          if term not in stop and len(term) != 1]
                 # # track when the hashtag is mentioned
@@ -127,8 +126,8 @@ class Command(BaseCommand):
                 #     dates_t1.append(tweet['created_at'])
                 # if t2 in terms:
                 #     dates_t2.append(tweet['created_at'])
-            except:
-                err += 1
+            # except:
+            #     err += 1
             count_stop.update(terms_stop)
             count_hashtags.update(hashtags_only)
             count_mentions.update(mentions_only)
@@ -136,19 +135,20 @@ class Command(BaseCommand):
             print "map: ",
             print a
             a += 1
-            try:
-                if tweet['coordinates']:
-                    geo_json_feature = {
-                        "type": "Feature",
-                        "geometry": tweet['coordinates'],
-                        "properties": {
-                            "text": tweet['text'],
-                            "created_at": tweet['created_at']
-                        }
+            # try:
+
+            if t.lat:
+                geo_json_feature = {
+                    "type": "Feature",
+                    "geometry": {
+                        "coordinates": [float(t.lon), float(t.lat)],"type":"Point"},
+                    "properties": {
+                        "text": tweet
                     }
-                    geo_data['features'].append(geo_json_feature)
-            except: 
-                pass
+                }
+                geo_data['features'].append(geo_json_feature)
+            # except: 
+            #     pass
 
             # asjdnalsjkdalsd
             # askdjbaskjdhajkhsd

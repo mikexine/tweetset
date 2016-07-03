@@ -54,10 +54,10 @@
       <tbody>
             {% for tweet in tweets %}
             <tr>
-            <td><img src="{{tweet.data.user.profile_image_url}}" class="img-thumbnail"></td>
-            <td><a href="https://twitter.com/{{tweet.data.user.screen_name}}"" target="_blank">{{tweet.data.user.screen_name}}</a></td>
-            <td>{{tweet.data.text}}</td>
-            <td>{{tweet.parse_datetime}}</td>
+            <td><img src="{{tweet.twitter_user.profile_image_url}}" class="img-thumbnail"></td>
+            <td><a href="https://twitter.com/{{tweet.data.user.screen_name}}"" target="_blank">{{tweet.twitter_user.screen_name}}</a></td>
+            <td>{{tweet.text}}</td>
+            <td>{{tweet.tweet_time}}</td>
             <td><a href="https://twitter.com/statuses/{{tweet.twitter_id}}"" target="_blank">{{tweet.twitter_id}}</a></td>
             </tr>
             {% endfor %}

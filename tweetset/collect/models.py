@@ -130,13 +130,41 @@ class Collection(models.Model):
     def __unicode__(self):
         return unicode(self.name)
 
+
+class TweetAccount(models.Model):
+    account_id = models.AutoField(primary_key=True)
+    followers_count = models.IntegerField()
+    following_count = models.IntegerField()
+    screen_name = models.TextField(max_length=100)
+    verified = models.BooleanField(default=False)
+    profile_image_url = models.TextField(max_length=200)
+
+    def __unicode__(self):
+        return unicode(self.account_id)
+
+
 class Tweet(models.Model):
-    data = JSONField()
-    twitter_id = models.CharField(max_length=100, db_index=True)
+    # data = JSONField()
+    text = models.TextField(max_length = 200)
+    lat = models.DecimalField(max_digits=9, decimal_places=6, default=None, blank=True, null=True)
+    lon = models.DecimalField(max_digits=9, decimal_places=6, default=None, blank=True, null=True)
+    tweet_time = models.DateTimeField(default=None, blank=True, null=True)
+    hashtags = JSONField(default=None, blank=True, null=True)
+    urls = JSONField(default=None, blank=True, null=True)
+    user_mentions = JSONField(default=None, blank=True, null=True)
+    in_reply_to_user = models.TextField(max_length=100, default=None, blank=True, null=True)
+    lang = models.TextField(max_length=10, default=None, blank=True, null=True)
+    twitter_id = models.AutoField(max_length=100, primary_key=True)
     collection = models.ForeignKey(Collection, related_name="tweets")
+    twitter_user = models.ForeignKey(TweetAccount, related_name="accounts")
+
+    class Meta:
+        ordering = ["twitter_id"]
 
     def parse_datetime(self):
         return datetime(*(parsedate(self.data['created_at'])[:6]))        
 
     def __unicode__(self):
         return unicode(self.twitter_id)
+
+
