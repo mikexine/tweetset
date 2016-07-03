@@ -133,8 +133,8 @@ class Collection(models.Model):
 
 class TweetAccount(models.Model):
     account_id = models.AutoField(primary_key=True)
-    followers_count = models.IntegerField()
-    following_count = models.IntegerField()
+    followers_count = models.BigIntegerField()
+    following_count = models.BigIntegerField()
     screen_name = models.TextField(max_length=100)
     verified = models.BooleanField(default=False)
     profile_image_url = models.TextField(max_length=200)
